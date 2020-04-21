@@ -1,0 +1,4 @@
+body {
+  /* try to load the font-family from Google, otherwise put use built-in computer fonts */
+  font-family: 'Source Sans Pro', sans-serif;
+}
