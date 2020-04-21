@@ -7,4 +7,30 @@
 body {
   /* try to load the font-family from Google, otherwise put use built-in computer fonts */
   font-family: 'Source Sans Pro', sans-serif;
+  font-size: 10px;
+  line-height: 1.65;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.15;
+}
+
+h1 {
+  font-size: 1.802em;
+}
+
+h2 {
+  font-size: 1.602em;
+}
+
+h3 {
+  font-size: 1.424em;
+}
+
+p,
+li,
+a {
+  font-size: 1.266em;
 }
