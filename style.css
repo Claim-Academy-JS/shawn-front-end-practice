@@ -45,6 +45,15 @@ figcaption {
   font-size: 1.266em;
 }
 
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style-type: none;
+}
+
 .screen-reader-text {
   position: absolute;
   top: -9999px;
