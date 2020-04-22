@@ -4,9 +4,18 @@
   --tertiary-color: #97AFB9;
 }
 
+header {
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  /*em checks parents, rem checks the top parent */
+}
+
 body {
   /* try to load the font-family from Google, otherwise put use built-in computer fonts */
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "'Source Sans Pro'", cursive;
+  /* base font.size - this serves as the base for all 'em' units */
   font-size: 10px;
   line-height: 1.65;
 }
@@ -31,6 +40,13 @@ h3 {
 
 p,
 li,
-a {
+a,
+figcaption {
   font-size: 1.266em;
+}
+
+.screen-reader-text {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
 }
