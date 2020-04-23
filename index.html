@@ -13,14 +13,14 @@
 
   </head>
   <body>
-    <header>
+    <header class="flex flex--justify-content-center">
       <!-- h1 and title should be same for SEO -->
       <h1 class="screen-reader-text">Shawn's Website Example</h1>
       <img src="https://milspecretail.com/wp-content/uploads/2019/08/radian-logo.png" alt="Radian Logo">
     </header>
 
     <nav>
-      <ul>
+      <ul class="flex">
         <li><a href="#">Home</a></li>
         <li><a href="gallery.html">Gallery</a></li>
         <li><a href="contact.html">Contact</a></li>
@@ -28,35 +28,35 @@
     </nav>
     <main>
       <!-- 'id' is only ONCE PER PAGE -->
-      <div id="cta">
-        <div class="bg-trans">
+      <div id="cta" class="flex--column flex--align-items-center flex--justify-content-center">
+        <div class="bg-trans text--align">
         <p>This is an example tag for my website</p>
         <a href="gallery.html" class="button">Check out my pictures!</a>
         </div>
       </div>
       <!-- (section>(figure>img+figcaption)+a+p)*3 -->
-      <section>
+      <section class=".flex">
         <figure>
-          <img src="https://www.harriscountyga.gov/wp-content/uploads/2019/08/Forrest-400x300.jpg" alt="">
-          <figcaption>Learn More About My Example Website!</figcaption>
+          <img src="https://www.harriscountyga.gov/wp-content/uploads/2019/08/Forrest-400x300.jpg" class = "img--responsive" alt="">
+          <figcaption class="text--align">Learn More About My Example Website!</figcaption>
         </figure>
         <a href="" class="button">Learn More</a>
         <p></p>
       </section>
 
-      <section>
+      <section class=".flex">
         <figure>
-          <img src="https://cdn.listingphotos.sierrastatic.com/pics2x/v1582850311/42/42_MDSM167934_100.jpg" alt="">
-          <figcaption>Learn More About My Example Website!</figcaption>
+          <img src="https://cdn.listingphotos.sierrastatic.com/pics2x/v1582850311/42/42_MDSM167934_100.jpg" class = "img--responsive" alt="">
+          <figcaption class="text--align">Learn More About My Example Website!</figcaption>
         </figure>
         <a href=""class="button">Learn More</a>
         <p></p>
       </section>
 
-      <section>
+      <section class=".flex">
         <figure>
-          <img src="https://source.unsplash.com/random/400x300" alt="">
-          <figcaption>Learn More About My Example Website!</figcaption>
+          <img class="img--responsive"src="https://source.unsplash.com/random" alt="">
+          <figcaption class="text--align">Learn More About My Example Website!</figcaption>
         </figure>
         <a href="" class="button">Learn More</a>
         <p></p>
