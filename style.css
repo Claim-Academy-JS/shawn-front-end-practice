@@ -16,7 +16,7 @@ body {
   /* try to load the font-family from Google, otherwise put use built-in computer fonts */
   font-family: "'Source Sans Pro'", cursive;
   /* base font.size - this serves as the base for all 'em' units */
-  font-size: 10px;
+  font-size: 20px;
   line-height: 1.65;
   background-color: var(--tertiary-color);
 }
@@ -76,10 +76,38 @@ a {
   flex-direction: column;
   align-items: center;
   height: 15vh;
+  justify-content: center;
+}
+/* SPACE MEANS ANY CHILD SELECTOR */
+#cta p {
+  color: #0000ff;
+  font-size: 1.75em;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
-#bg-trans {
-  background-color: rgba(red, green, blue, alpha);
+#cta a {
+  background: var(--primary-color);
+  padding: 0.5em;
+  border-radius: 4px;
+  color: purple;
+  -webkit-box-shadow: 1px 4px 5px 9px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 4px 5px 9px rgba(0,0,0,0.75);
+  box-shadow: 1px 4px 5px 9px rgba(0,0,0,0.75);
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.bg-trans {
+  background-color: rgba(255, 255, 255, 0.5);
   border-radius: 3px;
-  padding: 1rem;
+  padding: 0.97rem;
+  text-align: center;
+}
+
+.button {
+  background-color:   grey;
+  border: Solid Thin var(--primary-color);
+  border-radius: 0.5rem;
+  padding: 0.7rem;
 }
