@@ -18,6 +18,8 @@ body {
   /* base font.size - this serves as the base for all 'em' units */
   font-size: 10px;
   line-height: 1.65;
+  background-color: var(--tertiary-color);
+
 }
 
 h1,
@@ -45,7 +47,12 @@ figcaption {
   font-size: 1.266em;
 }
 
-nav ul {
+nav {
+  background: var(--secondary-color);
+  padding: 0.5rem;
+}
+
+ul {
   display: flex;
   justify-content: space-around;
 }
@@ -54,8 +61,26 @@ li {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .screen-reader-text {
   position: absolute;
   top: -9999px;
   left: -9999px;
+}
+
+#cta {
+  display: flex;
+  background-image: url("https://source.unsplash.com/random");
+  flex-direction: column;
+  align-items: center;
+  height: 40vh;
+}
+
+#bg-trans {
+  background-color: rgba(red, green, blue, alpha);
+  border-radius: 3px;
+  padding: 1rem;
 }
