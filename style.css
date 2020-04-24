@@ -128,3 +128,7 @@ a {
 .text--align {
   text-align: center;
 }
+
+.flex--justify-content-space-around {
+  justify-content: space-around;
+}
