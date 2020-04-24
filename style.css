@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #00A5E5;
-  --secondary-color: #54E0CD;
-  --tertiary-color: #97AFB9;
+  --primary-color: #00a5e5;
+  --secondary-color: #54e0cd;
+  --tertiary-color: #97afb9;
 }
 
 a {
@@ -24,7 +24,7 @@ body {
 }
 
 .button {
-  background-color:   grey;
+  background-color: grey;
   border: Solid Thin var(--primary-color);
   border-radius: 0.5rem;
   padding: 0.7rem;
@@ -47,14 +47,14 @@ body {
 
 #cta a {
   background: var(--primary-color);
-  box-shadow: 1px 4px 5px 9px rgba(0,0,0,0.75);
+  box-shadow: 1px 4px 5px 9px rgba(0, 0, 0, 0.75);
   border-radius: 4px;
   color: purple;
   display: inline-block;
   margin-bottom: 0.5rem;
-  -moz-box-shadow: 1px 4px 5px 9px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 4px 5px 9px rgba(0, 0, 0, 0.75);
   padding: 0.5em;
-  -webkit-box-shadow: 1px 4px 5px 9px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 1px 4px 5px 9px rgba(0, 0, 0, 0.75);
 }
 /* SPACE MEANS ANY CHILD SELECTOR */
 #cta p {
@@ -156,12 +156,15 @@ figcaption {
   }
 
   #cta {
-    background: url("https://source.unsplash.com/random/")no-repeat center center;
+    background: url("https://source.unsplash.com/random/") no-repeat center
+      center;
     background-size: cover;
     height: 30vh;
   }
+}
 
+@media screen and (min-width: 960px) {
   .flex--md {
-
+    display: flex;
   }
 }
