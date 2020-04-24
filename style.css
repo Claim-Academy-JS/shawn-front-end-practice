@@ -29,7 +29,6 @@ body {
   border-radius: 0.5rem;
   padding: 0.7rem;
   max-width: 9rem;
-  margin: 0 auto;
 }
 
 #contact {
@@ -41,7 +40,7 @@ body {
 }
 
 #cta {
-  background-image: url("https://c1.vgtstatic.com/thumb/2/1/215194-v1-xl/carlyle-lake.jpg");
+  background-image: url("https://source.unsplash.com/random/900x900");
   display: flex;
   height: 15vh;
 }
@@ -148,4 +147,21 @@ figcaption {
 
 .text--align {
   text-align: center;
+}
+
+/* Media queries*/
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 20px;
+  }
+
+  #cta {
+    background: url("https://source.unsplash.com/random/")no-repeat center center;
+    background-size: cover;
+    height: 30vh;
+  }
+
+  .flex--md {
+
+  }
 }
