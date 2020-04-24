@@ -113,6 +113,12 @@ h3 {
   font-size: 1.424em;
 }
 
+.img--circle {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+}
+
 .img--responsive {
   height: auto;
   max-width: 100%;
