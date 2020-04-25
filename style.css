@@ -8,6 +8,13 @@ a {
   text-decoration: none;
 }
 
+a,
+figcaption,
+li,
+p {
+  font-size: 1.266em;
+}
+
 .bg-trans {
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 3px;
@@ -56,6 +63,7 @@ body {
   padding: 0.5em;
   -webkit-box-shadow: 1px 4px 5px 9px rgba(0, 0, 0, 0.75);
 }
+
 /* SPACE MEANS ANY CHILD SELECTOR */
 #cta p {
   color: #0000ff;
@@ -130,13 +138,6 @@ li {
 nav {
   background: var(--secondary-color);
   padding: 0.5rem;
-}
-
-p,
-li,
-a,
-figcaption {
-  font-size: 1.266em;
 }
 
 .screen-reader-text {
