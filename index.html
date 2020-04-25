@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
     <title>Shawn's Website Example</title>
-<!-- Always put normalize first so that we can override it if we want(CASCADE) -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+    <!-- Always put normalize first so that we can override it if we want(CASCADE) -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
+    />
 
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <header class="flex flex--justify-content-center">
       <!-- h1 and title should be same for SEO -->
       <h1 class="screen-reader-text">Shawn's Website Example</h1>
-      <img src="https://milspecretail.com/wp-content/uploads/2019/08/radian-logo.png" alt="Radian Logo">
+      <img
+        src="https://milspecretail.com/wp-content/uploads/2019/08/radian-logo.png"
+        alt="Radian Logo"
+      />
     </header>
 
     <nav>
@@ -26,55 +35,79 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
+
     <main>
       <!-- 'id' is only ONCE PER PAGE -->
-      <div id="cta" class="flex--column flex--align-items-center flex--justify-content-center">
+      <div
+        id="cta"
+        class="flex--column flex--align-items-center flex--justify-content-center"
+      >
         <div class="bg-trans text--align">
-        <p>This is an example tag for my website</p>
-        <a href="gallery.html" class="button">Check out my pictures!</a>
+          <p>This is an example tag for my website</p>
+          <a href="gallery.html" class="button">Check out my pictures!</a>
         </div>
       </div>
-      <!-- (section>(figure>img+figcaption)+a+p)*3 -->
+
       <div class="flex--md">
-      <section class="flex flex--column flex--align-items-center">
-        <figure>
-          <img src="https://source.unsplash.com/random/900x900" class = "img--circle" alt="">
-          <figcaption class="text--align">Learn More About My Example Website!</figcaption>
-        </figure>
-        <a href="" class="button">Learn More</a>
-        <p></p>
-      </section>
+        <section class="flex flex--column flex--align-items-center">
+          <figure>
+            <img
+              src="https://source.unsplash.com/random/900x900"
+              class="img--circle"
+              alt=""
+            />
+            <figcaption class="text--align">
+              Learn More About My Example Website!
+            </figcaption>
+          </figure>
+          <a href="" class="button">Learn More</a>
+        </section>
 
-      <section class="flex flex--column flex--align-items-center">
-        <figure>
-          <img src="https://source.unsplash.com/random/900x900" class = "img--responsive" alt="">
-          <figcaption class="text--align">Learn More About My Example Website!</figcaption>
-        </figure>
-        <a href=""class="button">Learn More</a>
-        <p></p>
-      </section>
+        <section class="flex flex--column flex--align-items-center">
+          <figure>
+            <img
+              src="https://source.unsplash.com/random/900x900"
+              class="img--responsive"
+              alt=""
+            />
+            <figcaption class="text--align">
+              Learn More About My Example Website!
+            </figcaption>
+          </figure>
+          <a href="" class="button">Learn More</a>
+        </section>
 
-      <section class="flex flex--column flex--align-items-center">
-        <figure>
-          <img class="img--responsive"src="https://source.unsplash.com/random/900x900" alt="">
-          <figcaption class="text--align">Learn More About My Example Website!</figcaption>
-        </figure>
-        <a href="" class="button">Learn More</a>
-        <p></p>
-      </section>
+        <section class="flex flex--column flex--align-items-center">
+          <figure>
+            <img
+              class="img--responsive"
+              src="https://source.unsplash.com/random/900x900"
+              alt=""
+            />
+            <figcaption class="text--align">
+              Learn More About My Example Website!
+            </figcaption>
+          </figure>
+          <a href="" class="button">Learn More</a>
+        </section>
       </div>
     </main>
+
     <footer>
-      <!-- ul>(li.a)*4 -->
+      <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address -->
       <div id="contact" class="flex flex--justify-content-center">
         <ul>
-          <li><a href="shawnhum97@gmail.com">Email: shawnhum97@gmail.com</a></li>
+          <li>
+            <a href="shawnhum97@gmail.com">Email: shawnhum97@gmail.com</a>
+          </li>
           <li><a href="gallery.html">Phone: 573-586-7230</a></li>
           <li><a href="#">1520 Washington Avenue, St Louis, MO 63103</a></li>
         </ul>
       </div>
       <div id="copyright">
-        <p class="flex flex--justify-content-center">&copy; 2020 Shawn Humphreys LLC.</p>
+        <p class="flex flex--justify-content-center">
+          &copy; 2020 Shawn Humphreys LLC.
+        </p>
       </div>
     </footer>
   </body>
